@@ -1,0 +1,41 @@
+body{
+    padding-top:20px;
+    background-color: rgb(242, 241, 241);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+}   
+
+figure{
+    background-color: rgb(247, 247, 247);
+    border-radius: 3px;
+}
+
+figcaption{
+    width: 70%; 
+    position: relative; 
+    left: 15%; 
+    text-align: center;
+}
+
+#heading{
+    text-align: center;
+}
+
+#picture{
+    height: auto;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline{
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.footer{
+    position: relative;
+    left: 40%;
+}

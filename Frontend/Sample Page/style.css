@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+.head{
+    background-color: grey;
+    padding: 15px 15px;
+    color: aliceblue;
+    text-indent: 225px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#question{
+    color: grey;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#options{
+    margin-left: 270px;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button section{
+    margin-left: 180px;
+    padding-left: 180px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btn{
+    padding: 20px 12px;
+    background-color: rgb(48, 105, 141);
+    border: 0ch;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+#btn2{
+    padding: 20px 12px;
+    background-color: rgb(48, 105, 141);
+    border: 0ch;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 50px;
+}
