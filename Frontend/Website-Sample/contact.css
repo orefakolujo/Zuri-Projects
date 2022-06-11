@@ -1,0 +1,170 @@
+body{
+    background-image: url(./images/pexels-pixabay-41949.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: Arial;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-top: 3em;
+    margin-left: 15%;
+    border-radius: 25px;
+    padding-bottom: 5em;
+    background-color: rgba(121,132,164,0.3);
+}
+
+.contact-heading{
+    width: 90%;
+}
+
+.contact-form{
+    width: 100%;
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-family: Merriweather, Arial;
+    margin-top: 1em;
+    color: white;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-family: Merriweather, Arial;
+    margin-top: 1em;
+    color: white;
+    line-wid
+}
+
+.contact-me-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 0.7em;
+    margin-left: 2.78em;
+}
+
+input[type=text]{
+    width: 100%;
+}
+
+.right-section{
+    display: flex;
+    width: 45%;
+}
+
+.your-name{
+    padding-top: 3em;
+    margin-bottom: 1.5em;
+    border-radius: 25px;
+    border: none;
+}
+
+.your-name::placeholder{
+    position: absolute;
+    top: 1.5em;
+    left: 1em;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.your-email{
+    padding-top: 3em;
+    margin-bottom: 1.5em;
+    border-radius: 25px;
+    border: none;
+}
+
+.your-email::placeholder{
+    position: absolute;
+    top: 1.5em;
+    left: 1em;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.your-phone{
+    position: relative;
+    padding-top: 3em;
+    border-radius: 25px;
+    border: none;
+}
+
+.your-phone::placeholder{
+    position: absolute;
+    top: 1.5em;
+    left: 1em;
+    font-size: 1em;
+    font-weight: 700;
+}
+.your-message{
+    position: relative;
+    padding-top: 4.5em;
+    padding-bottom: 4.5em;
+    margin-left: 1em;
+    border-radius: 25px;
+    border: none;
+}
+
+.your-message::placeholder{
+    position: absolute;
+    top: 1.5em;
+    left: 1em;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.send-message{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.message-button{
+    color: #241D2E;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 0px 25px 25px 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 5px 5px 15px #5b5465;
+    transition: 0.4s;
+}
+
+.message-button:hover{
+    background-color: #241D2E;
+    color: white;
+    border-radius: 25px 25px 0px 25px;
+}
+
+.iconify-inline{
+    margin-top: 2px;
+    margin-right: 4px;
+}

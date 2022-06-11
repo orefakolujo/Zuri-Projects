@@ -1,0 +1,61 @@
+.contact-form2{
+    display: flex;
+    flex-direction: row;
+}
+
+.form{
+    width: 100%;
+}
+
+.left-section2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+
+.right-section2{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstname{
+    display: flex;
+    margin-right: 0.7em;
+    margin-left: 2.78em;
+}
+
+.lastname{
+    display: flex;
+}
+
+.phone-gender{
+    display: flex;
+    flex-direction: row;
+}
+
+.register-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.register-button{
+    color: #241D2E;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 0px 25px 25px 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 5px 5px 15px #5b5465;
+    transition: 0.4s;
+}
+
+.register-button:hover{
+    background-color: #241D2E;
+    color: white;
+    border-radius: 25px 25px 0px 25px;
+}

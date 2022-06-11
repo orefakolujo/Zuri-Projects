@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    font-family: Roboto, Arial;
+    background-color: #7984A4;
+    padding-bottom: 100px;
+}
+
+p{
+    margin: 0;
+}
+
+.navigation-div{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    height: 70px;
+    color: #241D2E;
+}
+
+#title{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #7984A4;
+    width: 300px;
+    font-weight: light;
+    color: #241D2E;
+    font-size: 20px;
+    font-family: Merriweather, Arial;
+}
+
+.greeting{
+    font-family: Merriweather, Arial;
+    font-weight: bolder;
+    font-size:50px;
+    margin-bottom: 15px;
+}
+
+.my-name{
+    color: #241D2E;
+}
+
+.introduction{
+    width: 350px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-family: Merriweather, Arial;
+}
+#navigation-buttons{
+    display: flex;
+    justify-content: center;
+    background-color: #7984A4;
+    flex: 1;
+    text-align: center;
+}
+
+#navigation-registration{
+    display: flex;
+    justify-content: start;
+    background-color: #7984A4;
+    width: 300px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    background-color: #7984A4;
+    border: none;
+    border-radius: 25px;
+    margin: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.4s;
+}
+
+.button:hover{
+    background-color: white;
+    color: #241D2E;
+    border-radius: 25px 25px 0px 25px;
+}
+
+.login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 25px 25px 25px;
+    font-weight: 700;
+    color: #241D2E;
+    transition: 0.4s;
+}
+
+.login-button:hover{
+    border-radius: 25px 25px 0px 25px;
+    background-color: #241D2E;
+    color: white;
+}
+
+.login-button:active{
+    padding: left 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hero-section-div{
+    display: flex;
+    flex-direction: row;
+    background-color: #7984A4;
+    height: 600px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex: 1;
+    align-items: start;
+    justify-content: center;
+    padding-left: 25%;
+    padding-right: 5%;
+}
+
+.hero-image{
+    display: flex;
+    width: 55%;
+}
+
+#portfolio-button{
+    cursor: pointer;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 0px 25px 25px 25px;
+    color: #241D2E;
+    box-shadow: 5px 5px 15px #5b5465;
+    transition: 0.4s;
+}
+
+#portfolio-button:hover{
+    border-radius: 25px 25px 0px 25px;
+    background-color: #241D2E;
+    color: white;
+}
+
+#portfolio-button:active{
+    padding: left 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about-me-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b1bcde;
+    padding-bottom: 70px;
+}
+
+.about-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    background-color: #b1bcde;
+}
+
+.about-me{
+    font-family: Merriweather, Arial;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: #241D2E;
+}
+
+#hobby-div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.hobby{
+    font-family: Merriweather, Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.items{
+    font-family: Merriweather, Arial;
+    padding: 10px;
+    font-size: 13px;
+}
+
+#priority-div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.priority{
+    font-family: Merriweather, Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#skill-div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.skill{
+    font-family: Merriweather, Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
