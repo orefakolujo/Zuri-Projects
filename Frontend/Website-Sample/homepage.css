@@ -9,6 +9,20 @@ p{
     margin: 0;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.go-home{
+    color: #241D2E;
+    text-decoration: none;
+}
+
+.go-home:hover{
+    color: white;
+}
+
 .navigation-div{
     display: flex;
     flex-direction: row;
